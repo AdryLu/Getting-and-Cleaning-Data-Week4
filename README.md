@@ -35,7 +35,7 @@ To extract the only the measurements on the mean and standard deviation the foll
 The function factor() is used to replace the numeric/integer activity levels to descriptive names. (Walking, walkingup, walkingdown, etc)
 
 The function in the dlpyr library are used to group and summarize the dataset. 
-* The pile line operator %>% is used to first group the data by subject and activity, and them summarize (mean)
+* The pipe line operator %>% is used to first group the data by subject and activity, and them summarize (mean)
 * The results is stored in a new data frame
 
 The write.table function is used to write the final dataset in the working directory
